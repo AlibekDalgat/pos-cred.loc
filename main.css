@@ -1,0 +1,85 @@
+body {
+    background-color: #dad7d7;
+}
+.windowForm{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    display: inline-block;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.windowForm input {
+    width: 100%;
+}
+label, input {
+    margin-bottom: 5px;
+}
+
+.classicButtons {
+    border-radius: 10px;
+    background-color: #6488d7;
+    color: white;
+    padding: 10px;
+}
+.classicButtons:hover {
+    background-color: #3b5998;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.actions form {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions input {
+    flex: 1;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.buttonDelete {
+    background: #d20a0a;
+}
+.buttonDelete:hover {
+    background: #a90808;
+}
+
+.buttonChange {
+    background: #4CAF50;
+}
+.buttonChange:hover {
+    background: #38853c
+}
+
+.table1 {
+    margin: auto;
+}
+.table1 td {
+    width: 400px;
+    max-width: 250px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 7px 10px;
+    word-wrap: break-word;
+}
+td.actions {
+    width: 100%;
+}
+.table1 tr:hover td:not(.actions) {
+    background: #fc43fc
+}
